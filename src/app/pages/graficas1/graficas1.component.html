@@ -1,3 +1,17 @@
-<p>
-  graficas1 works!
-</p>
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+
+            <div class="card-body">
+
+
+                <h5 class="card-title">Graficas</h5>
+
+                <div style="display: block">
+                    <canvas baseChart [data]="doughnutChartData" [labels]="doughnutChartLabels" [chartType]="doughnutChartType" (chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)"></canvas>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
