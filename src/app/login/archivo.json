@@ -1,0 +1,14 @@
+{
+    "usuario": {
+        "id": null,
+        "version": null,
+        "nombre": "william",
+        "email": "william@gmail.com",
+        "password": "321654",
+        "img": "null",
+        "role": "null",
+        "google": false
+    },
+    "id": 321654,
+    "token": "321654654"
+}
